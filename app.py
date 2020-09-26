@@ -240,4 +240,4 @@ def hello_world():
     test= "Ahoy!!!"
     return render_template('index.html', value=test)
 
-app.run()
+app.run(threaded=True, port=5000)
