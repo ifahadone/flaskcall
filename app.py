@@ -22,7 +22,7 @@ def respond():
         response["ERROR"] = "name can't be numeric."
     # Now the user entered a valid name
     else:
-        response["MESSAGE"] = f"Welcome {name} to our flask api platform!!"
+        response["MESSAGE"] = f"Welcome {name} to our flask API platform!!"
 
     # Return the response in json format
     return jsonify(response)
